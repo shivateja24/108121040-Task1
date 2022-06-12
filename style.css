@@ -1,0 +1,16 @@
+body{background-color: none;}
+.piano{ margin: 00px;}
+div.grid{
+      display: flex;
+      flex-direction: row;}
+button{margin: 5px;
+      border-radius: 1px;
+      height: 75px;
+       width: 75px;}
+div.piano{margin: 100px;
+}
+@keyframes animate{ 50%{backgroundcolor: red;}
+100%{ background-color: green;}
+}
+button.blink{
+      animation: animate 1s infinite;}
